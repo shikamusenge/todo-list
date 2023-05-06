@@ -1,0 +1,85 @@
+body {
+  color: aliceblue;
+  background-color: black;
+}
+nav {
+  height: 40px;
+  border-bottom: solid #242323;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgb(12, 3, 49);
+}
+nav ul {
+  margin-top: 3px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  font-size: larger;
+  color: white;
+}
+.btn {
+  border: solid;
+  padding: 5px;
+  margin: 80px;
+  background-color: blue;
+  border-radius: 5px;
+  color: aliceblue;
+}
+.container {
+  border: inset;
+  border-radius: 15px;
+  padding: 20px;
+  min-height: 600px;
+}
+.sid-left {
+  height: 500px;
+  width: 40%;
+}
+.sid-right {
+  height: 500px;
+  width: 58%;
+  float: right;
+  margin-top: -500px;
+}
+.footer {
+  bottom: 0;
+  height: 30px;
+  border-bottom: solid #242323;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgb(12, 3, 49);
+  text-align: center;
+}
+.sid-left form {
+  color: black;
+  background-color: whitesmoke;
+  margin-top: 50px;
+  border: outset;
+  margin-left: 15px;
+  padding: 20px;
+  max-width: 200px;
+}
+input {
+  width: 90%;
+  margin: 3px;
+  padding-top: 10px;
+}
+table {
+  min-width: 500px;
+}
+.popup {
+  background-color: rgb(177, 19, 19);
+  color: white;
+}
+.sid-right form {
+  background-color: rgb(46, 41, 41);
+  color: rgb(238, 233, 233);
+  border: inset;
+  border-radius: 15px;
+  padding: 1rem;
+}

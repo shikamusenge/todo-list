@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      if (localStorage.getItem("user") == "") {
+        alert("you Must login First");
+        location.href = "index.html";
+      }
+    </script>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-List</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#">MyTask</a></li>
+          <li><a href="#">AddTask</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#" onclick="logout()">Logout</a></li>
+        </ul>
+      </nav>
+      <div class="row">
+        <div class="sid-left">
+          <form id="task-form" class="add">
+            <label>Task</label><br />
+            <input type="text" name="task" /><br />
+            <label>Date</label><br />
+            <input type="date" name="Date" /><br />
+            <input type="submit" name="btn" />
+          </form>
+        </div>
+        <div class="sid-right">
+          <table border="1" cellspacing="0">
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>task</th>
+                <th>Date</th>
+                <th colspan="2">action</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="footer">To do list</div>
+    </div>
+    <script src="js/dashboard.js"></script>
+  </body>
+</html>
