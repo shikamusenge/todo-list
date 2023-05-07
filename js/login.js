@@ -18,7 +18,9 @@ const formData = document.querySelector("#form-data");
 const Msg = document.querySelector(".Msg");
 let usersData = JSON.parse(localStorage.getItem("usersData")) || [];
 const myUsers = usersData.map((a) => a.userName);
+
 let users = usersData.map((a) => a.userName + a.password);
+
 formData.addEventListener("submit", (e) => {
   e.preventDefault();
   let user = formData.usn.value;
