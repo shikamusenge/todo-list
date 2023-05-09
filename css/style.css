@@ -1,0 +1,123 @@
+body {
+  color: aliceblue;
+  background-color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px;
+}
+nav ul {
+  margin-top: 3px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  font-size: larger;
+  color: white;
+}
+.btn {
+  border: solid;
+  padding: 5px;
+  margin: 80px;
+  background-color: blue;
+  border-radius: 5px;
+  color: aliceblue;
+}
+.container {
+  border: groove rgb(31, 28, 31);
+  border-radius: 15px;
+  padding: 20px;
+  min-height: 600px;
+}
+.sid-left {
+  height: 500px;
+  width: 40%;
+}
+.sid-right {
+  height: 500px;
+  width: 58%;
+  float: right;
+  margin-top: -500px;
+}
+.footer {
+  bottom: 0;
+  height: 30px;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.sid-left form {
+  color: black;
+  background-color: whitesmoke;
+  margin-top: 50px;
+  border: outset;
+  margin-left: 15px;
+  padding: 20px;
+  max-width: 200px;
+}
+input[type="text"],
+input[type="password"] {
+  border-radius: 5px;
+  padding-inline: 1rem;
+  width: 90%;
+  height: 3rem;
+  margin-top: 2rem;
+  margin-top: 10px;
+  background-color: rgb(31, 28, 31);
+  color: blanchedalmond;
+}
+table {
+  min-width: 500px;
+}
+.popup {
+  background-color: rgb(177, 19, 19);
+  color: white;
+}
+.sid-right form {
+  background-color: rgb(46, 41, 41);
+  color: rgb(238, 233, 233);
+  border: inset;
+  border-radius: 15px;
+  padding: 1rem;
+}
+.row {
+  padding: 3rem;
+  min-height: 500px;
+  display: flex;
+  justify-content: space-around;
+  border-top: solid #242323;
+  border-bottom: solid #242323;
+  border-radius: 30px;
+  background-color: rgba(5, 5, 5, 0.986);
+}
+
+.form-login {
+  background-color: rgba(2, 1, 10, 0.658);
+  padding: 3rem;
+  min-width: 350px;
+  min-height: 350px;
+  box-shadow: inset;
+  font-size: 18px;
+}
+.btn-login {
+  width: 90%;
+  height: 3rem;
+  font-size: xx-large;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+label {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.Msg {
+  background-color: #f0081449;
+  font-size: 12;
+}
