@@ -25,5 +25,5 @@ export const register = (e) => {
 
   users.push(user);
   localStorage.setItem("users", JSON.stringify(users));
-  alert("account created successfully");
 };
+alert("account created successfully");
