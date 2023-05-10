@@ -1,0 +1,144 @@
+.Tsid-left {
+  display: block;
+  width: 20%;
+  border-right: solid grey 1px;
+  background-color: rgba(44, 43, 43, 0);
+  margin: 0px;
+  padding-inline: 0;
+}
+.Tsid-right {
+  width: 80%;
+  min-height: 200px;
+  margin: 0px;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Tsid-left ul {
+  margin: 0;
+  list-style: none;
+}
+.Tsid-left ul li {
+  padding: 0;
+  margin: 0;
+  padding-top: 0;
+  list-style: none;
+  margin-inline: 1rem;
+  font: x-large;
+  margin-block: 1rem;
+}
+@media (max-width: 800px) {
+  .Tsid-right {
+    width: 100%;
+  }
+  .Tsid-left {
+    padding-top: 0;
+    width: 100%;
+
+    height: 4rem;
+    display: flex;
+  }
+  .Tsid-left ul {
+    padding: 0;
+    display: flex;
+  }
+  .Tsid-left ul li {
+    display: flex;
+  }
+  .row {
+    display: block;
+    padding: 0;
+  }
+  .taskDiv {
+    width: 100%;
+  }
+}
+
+.Tsid-left button {
+  background-color: inherit;
+  width: 150px;
+  color: white;
+  border-radius: 5px;
+  margin: 0;
+  padding-inline: 1rem;
+  background-color: rgb(42, 43, 40);
+  cursor: pointer;
+  border: none;
+}
+.taskDiv {
+  background-color: rgb(36, 35, 35);
+  padding: 1rem;
+  margin: 0.5rem;
+  width: 300px;
+  max-height: 200px;
+}
+
+.taskDiv .taskDivTitle {
+  color: white;
+  font-weight: bold;
+}
+.taskDivBody {
+  color: white;
+}
+.taskDivFooter {
+  font-size: small;
+  color: rgb(188, 197, 206);
+  padding-block: 1rem;
+}
+.taskDivFooter button {
+  font-size: small;
+  color: rgb(242, 245, 244);
+  background-color: rgb(65, 61, 61);
+  border: none;
+  bottom: 0;
+  cursor: pointer;
+}
+/* add task form */
+.formDiv {
+  margin: 4rem;
+  display: none;
+  width: 300px;
+  background-color: rgba(15, 15, 15, 0.74);
+  /* position: absolute; */
+  padding: 1rem;
+}
+.formDiv input,
+textarea {
+  border: none;
+  color: white;
+  width: 90%;
+  padding-block: 5px;
+  padding-inline: 1rem;
+  border-radius: 6px;
+  margin-block: 4px;
+  background-color: rgb(39, 37, 37);
+}
+.formDiv button {
+  float: right;
+  margin-right: 1rem;
+  padding-inline: 3rem;
+  font-size: x-large;
+  background-color: black;
+  color: white;
+  margin-top: 1rem;
+  border: none;
+  cursor: pointer;
+  padding-block: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.formDiv textarea {
+  max-height: 80px;
+  height: 80px;
+}
+.formDiv .tit {
+  font-size: xx-large;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+}
+.formDiv label {
+  font-weight: bold;
+  font-size: large;
+}
