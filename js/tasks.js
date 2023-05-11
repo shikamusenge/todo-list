@@ -76,3 +76,13 @@ const crearMsg = () => {
     document.querySelector(".Msg-success").innerHTML = "";
   }, 5000);
 };
+document.querySelector(".tasksDivision").onclick = (e) => {
+  e.preventDefault();
+
+  if ((e.target.className = "del-task")) {
+    const tid = e.target.id;
+    tasks.splice(tid, 1);
+    localStorage.setItem("myTasks", JSON.stringify(tasks));
+    displayTasks();
+  }
+};
