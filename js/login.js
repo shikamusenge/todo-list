@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { loginForm, users } from "../app.js";
 export const login = (e) => {
   e.preventDefault();
@@ -13,7 +12,6 @@ export const login = (e) => {
 
   e.target.reset();
 };
-=======
 const formData = document.querySelector("#form-data");
 const Msg = document.querySelector(".Msg");
 let usersData = JSON.parse(localStorage.getItem("usersData")) || [];
@@ -42,4 +40,3 @@ formData.addEventListener("submit", (e) => {
 setTimeout(() => {
   Msg.innerHTML = "";
 }, 5000);
->>>>>>> 8b78d45 (I have created Login form for users)
