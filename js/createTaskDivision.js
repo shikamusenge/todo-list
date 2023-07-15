@@ -1,4 +1,4 @@
-export const CreateTaskDiv = (title, body, footer) => {
+export const CreateTaskDiv = (title, body) => {
   const uiDiv = document.querySelector(".Tsid-right");
   const taskDiv = document.createElement("div");
   const taskDivTitle = document.createElement("div");
