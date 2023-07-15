@@ -1,5 +1,5 @@
 import { tasks } from "../db/tasks.js";
-import { CreateTaskDiv } from "./createTaskDivision.js";
+
 export const displayTasks = () => {
   tasks.forEach((task) => {
     const Details = `${task.details} <br> Timeline : ${task.details}`;
